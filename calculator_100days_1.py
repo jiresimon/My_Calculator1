@@ -16,7 +16,7 @@ continue_arithmetic = True
 
 while continue_arithmetic:
     
-    n1 = int(input('What\'s the first number: '))
+    n1 = float(input('What\'s the first number: '))
 
 #using the knowledge of a dictionary with keys and values to access our functions
     operations = {'+': add, 
@@ -30,7 +30,7 @@ while continue_arithmetic:
     
     operation_symbol = input('pick an operation from the symbols above: ')
 
-    n2 = int(input('What\'s the second number: '))
+    n2 = float(input('What\'s the second number: '))
 
     if operation_symbol == '+':
         result = operations[operation_symbol]
